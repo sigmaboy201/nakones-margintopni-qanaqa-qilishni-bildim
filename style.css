@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-image: url('https://img.redbull.com/images/c_crop,w_1920,h_960,x_0,y_0/c_auto,w_1200,h_600/f_auto,q_auto/redbullcom/2017/08/22/c54ac74a-74b5-43b5-9352-5041fdc50766/pubg-title.jpg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Nosifer", serif;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+ul {
+    display: flex;
+    gap: 80px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+a {
+    color: yellow;
+}
+
+a:hover {
+    color: red;
+}
+
+button {
+    font-family: "Irish Grover", serif;
+    border: 11px solid #050505;
+    width: 692px;
+    height: 119px;
+    align-items: center;
+    justify-content: center;
+    background-color: #4adf17;
+    margin-top: 576px;
+    margin-left: 265px;
+}
+
+h1 {
+    text-align: center;
+    color: yellow;
+    font-size: 100px;
+    font-weight: bold;
+}
